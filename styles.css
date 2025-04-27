@@ -65,7 +65,7 @@ input[type="file"] {
     cursor: pointer;
 }
 
-#selecao-voz-box select {
+#selecao-voz {
     width: 100%;
    
 }
