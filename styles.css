@@ -8,12 +8,12 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, #320b74 0%, #090979 35%, #005b6e);
+    background: linear-gradient(90deg, #10091d 0%, #4a165f 35%, #e47f0c);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     gap: 20PX;
 }
@@ -21,7 +21,7 @@
 #entrada-de-conteudo {
     display: flex;
     width: 80%;
-    gap: 20px;
+    gap: 10px;
     align-items: center;
 }
 
@@ -43,13 +43,14 @@ input[type="file"] {
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 80%;
+    width: 75%;
 }
 
 .acao-box {
-    padding: 15px;
-    gap: 15px;
-    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    gap: 10px;
+    padding: 10px;
 }
 
 .acoes select,
@@ -60,18 +61,17 @@ input[type="file"] {
     border: none;
     border-radius: 5px;
     font-size: 16px;
-    width: 50%;
+    width: 100%;
     font-weight: bold;
     cursor: pointer;
 }
 
 #selecao-voz {
     width: 100%;
-   
 }
 
 .acoes button {
-    background-color: #ed9222;
+    background-color: #030442;
     color: #fff;
     cursor: pointer;
     transition: 0.3s;
@@ -80,10 +80,12 @@ input[type="file"] {
 #arquivo-label {
     font-size: 20px;
     padding: 15px;
-    background-color: #ed9222;
+    background-color: #030442;
+    border-radius: 5px;
+    margin-left: 25px
 }
 
 .acoes button:hover,
 #arquivo-label:hover {
-    background-color: #d48a35;
+    background-color: #074494;
 }
